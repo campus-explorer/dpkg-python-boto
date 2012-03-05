@@ -1,0 +1,17 @@
+Description: Import boto.provider in boto/utils.py
+ Resolves issue of boto/utils.py making calls to function 
+ boto.provider, without importing it.
+Author: Dave Walker (Daviey) <DaveWalker@ubuntu.com>
+Bug-Ubuntu: https://launchpad.net/bugs/947424
+Bug: https://github.com/boto/boto/issues/614
+
+--- a/boto/utils.py
++++ b/boto/utils.py
+@@ -46,6 +46,7 @@
+ import time
+ import logging.handlers
+ import boto
++import boto.provider
+ import tempfile
+ import smtplib
+ import datetime
