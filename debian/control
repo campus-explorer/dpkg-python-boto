@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Eric Evans <eevans@debian.org>
-Build-Depends: debhelper (>= 7), python-all (>= 2.6.6-3)
+Build-Depends: debhelper (>= 7), python-all (>= 2.6.5)
 X-Python-Version: >= 2.5
 Homepage: http://code.google.com/p/boto/
 XS-Debian-Vcs-Git: git://git.debian.org/git/users/eevans/python-boto
