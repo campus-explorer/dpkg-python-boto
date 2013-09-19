@@ -1,3 +1,10 @@
+python-boto (2.2.2-0ubuntu2~10.04~ppa2) lucid; urgency=low
+
+  * Drop our python-all builddep from 2.6.6 to 2.6.5.
+  * Build for lucid.
+
+ -- Chris Weyl <cweyl@alumni.drew.edu>  Wed, 18 Sep 2013 17:02:58 -0700
+
 python-boto (2.2.2-0ubuntu2~10.04~ppa1) lucid; urgency=low
 
   * Build for lucid.
